@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{titlesec}
+
+% Professional Color Palette
+\definecolor{primary}{RGB}{20, 50, 90}
+\definecolor{secondary}{RGB}{40, 110, 180}
+\definecolor{accent}{RGB}{220, 60, 50}
+\definecolor{darkgray}{RGB}{50, 50, 50}
+\definecolor{lightbg}{RGB}{245, 247, 250}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=secondary,
+    urlcolor=secondary
+}
+
+% Section Styling
+\titleformat{\section}{\Large\bfseries\color{primary}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\large\bfseries\color{secondary}}{}{0em}{}
+
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+% Title Header
+\begin{center}
+    {\Huge \bfseries \color{primary} Software Engineering in the AI Era} \\[0.4em]
+    {\Large \color{secondary} Industry Shifts \& The Austrian Tech Job Market Guide} \\[0.8em]
+    \rule{\linewidth}{1.5pt}
+\end{center}
+
+\vspace{0.5em}
+
+\begin{tcolorbox}[colback=lightbg,colframe=primary,title=\textbf{Executive Summary}]
+While AI models (like GPT-6) automate syntax generation, **software engineers remain essential**. The role is evolving from manual code typing to \textbf{systems architecture, security verification, intent specification, and product orchestration}. 
+\end{tcolorbox}
+
+\section{1. The Role of Software Engineers in the AI Era}
+
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Why Engineers Are Still Needed:}
+    \begin{itemize}
+        \item \textbf{Intent Translation:} Converting vague business needs into unambiguous logic.
+        \item \textbf{Systems Architecture:} Designing scalable, resilient distributed systems.
+        \item \textbf{Security \& Accountability:} Auditing AI-generated code for vulnerabilities and taking legal/operational ownership.
+    \end{itemize}
+    
+    \item \textbf{The Mindset Shift:}
+    \begin{itemize}
+        \item \textbf{Before AI:} Focus on memorizing syntax, writing boilerplate CRUD endpoints, and manual debugging.
+        \item \textbf{With AI:} Focus on acting as a \textbf{System Architect \& Conductor} who directs AI agents, designs database schemas, and enforces quality.
+    \end{itemize}
+\end{itemize}
+
+\section{2. Essential Technical Core for the Modern Engineer}
+
+To thrive alongside AI tools, an engineer must master these foundational pillars:
+
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{Data Flow \& Protocols:} Understanding HTTP/HTTPS, REST APIs, JSON formatting, and WebSockets.
+    \item \textbf{Database \& State Design:} SQL (PostgreSQL), data normalization, caching, and client/server state management.
+    \item \textbf{Security \& Auth:} OAuth2, JWTs, CORS policies, XSS prevention, and secret management.
+    \item \textbf{Version Control \& CI/CD:} Git hygiene, branch management, pull request reviews, and deployment pipelines (Docker, GitHub Actions).
+    \item \textbf{AI-Augmented Workflow:} Using AI to accelerate development while retaining deep comprehension of the code base.
+\end{enumerate}
+
+\section{3. The Austrian Tech Job Market Landscape}
+
+\subsection{A. Popular In-Demand Stacks in Austria}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Enterprise \& Banking (e.g., Erste Group, Raiffeisen, ÖBB):} Java (Spring Boot), C\# (.NET Core), Angular, Microsoft Azure.
+    \item \textbf{Scale-ups \& Tech Hubs (e.g., Dynatrace, Bitpanda, refurbed):} TypeScript, React / Next.js, Node.js, Python, AWS, Docker.
+\end{itemize}
+
+\subsection{B. Key Market Realities in Austria}
+\begin{itemize}[leftmargin=1.5em]
+    \item \textbf{Language Requirements:}
+    \begin{itemize}
+        \item \textbf{English-Only:} Common in tech scale-ups and international unicorns in Vienna, Linz, and Graz.
+        \item \textbf{German (B2/C1):} Preferred or required in traditional corporations, public sector, and local consultancies.
+    \end{itemize}
+    \item \textbf{14-Month Salary System (Kollektivvertrag - KV):} By Austrian law, salaries are governed by collective agreements offering **14 payments per year** (including 13th and 14th bonus payments). Overpayment (*Überzahlung*) above the KV minimum is standard.
+    \item \textbf{Proof of Skill vs. Degrees:} While formal degrees (HTL, FH, Uni) are respected, **live deployed projects (Chrome Extensions, Web Apps, APIs)** carry immense weight during technical interviews.
+\end{itemize}
+
+\section{4. Action Plan: How to Get Hired in Austria}
+
+\begin{tcolorbox}[colback=white,colframe=secondary,title=\textbf{4-Step Hiring Strategy}]
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{Build Real Software:} Ship 2--3 deployed projects (e.g., a Chrome extension, a full-stack SaaS tool, or a REST API).
+    \item \textbf{Showcase Git Hygiene:} Keep a clean GitHub profile with clear commits, pull requests, and documentation.
+    \item \textbf{Master the Interview Explanation:} Be prepared to explain: \textit{"I used AI to build faster, but here is how I designed the architecture, data flow, and security."}
+    \item \textbf{Target the Right Companies:} Apply to international tech scale-ups if primary language is English, or local enterprises if fluent in German.
+\end{enumerate}
+\end{tcolorbox}
+
+\end{document}

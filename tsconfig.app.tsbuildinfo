@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/dashboardapp.tsx","./src/dashboard.tsx","./src/main.tsx","./src/logic/background.ts","./src/logic/content.ts","./src/services/discountapi.ts","./src/services/storage.ts","./src/types/trip.ts"],"version":"6.0.3"}
